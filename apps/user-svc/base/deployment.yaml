@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: user-svc
-          image: ghcr.io/YOUR_USER/user-svc:latest
+          image: ghcr.io/nhatminh06/user-svc:4a69f81d19dcc808bfbcff3d04ab85a5c1544c17
           ports:
             - containerPort: 8081
           env:
