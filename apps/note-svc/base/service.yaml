@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: note-svc
+spec:
+  selector:
+    app: note-svc
+  ports:
+    - port: 8082
+      targetPort: 8082
