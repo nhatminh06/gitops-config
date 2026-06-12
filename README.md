@@ -15,8 +15,6 @@ This is a monorepo containing the following main components:
 -   `docker-compose.yaml`: For local development and testing.
 -   `kind-config.yaml`: Configuration for a local Kubernetes cluster using KIND.
 
-For more details on the GitOps setup, see the [gitops-config/README.md](gitops-config/README.md).
-
 ## Quick Start
 
 To get the full application running on a local Kubernetes cluster:
