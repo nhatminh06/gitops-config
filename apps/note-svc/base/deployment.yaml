@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: note-svc
-          image: ghcr.io/nhatminh06/note-svc:db497bac7623c18f2ee03742720959795c4aa508
+          image: ghcr.io/nhatminh06/note-svc@sha256:e2ab8182b24a2b8a04f533316619cc510d503260d7d3787d1c0971d0c8a62926
           ports:
             - containerPort: 8082
           env:
