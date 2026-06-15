@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: api-gateway
-          image: ghcr.io/nhatminh06/api-gateway:98bc9b2498edee049fa0fec845ffa4636d7ab8fa
+          image: ghcr.io/nhatminh06/api-gateway:e8d27f32aa19e964bca88eef00f15d92e5aca56d
           ports:
             - containerPort: 8080
           env:
