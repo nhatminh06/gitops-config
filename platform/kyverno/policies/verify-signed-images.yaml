@@ -20,6 +20,8 @@ spec:
       verifyImages:
         - imageReferences:
             - "ghcr.io/nhatminh06/*"
+          mutateDigest: false
+          verifyDigest: false
           attestors:
             - entries:
                 - keyless:
